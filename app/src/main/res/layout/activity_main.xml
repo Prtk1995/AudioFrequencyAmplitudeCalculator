@@ -8,15 +8,28 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Calculating Amplitude and frequency while recording audio.Please proivde storage and audio permission to continue"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:visibility="visible"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        />
+
+    <TextView
         android:id="@+id/tv_Amplitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
         android:text="Amplitude = "
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/gray_16"
         android:textSize="20sp"
         android:visibility="visible"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:id="@+id/tv_Frequency"
@@ -24,7 +37,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
         android:text="Frequency = "
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/gray_16"
         android:textSize="20sp"
         android:visibility="visible"
         tools:ignore="HardcodedText" />
